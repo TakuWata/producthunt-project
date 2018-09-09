@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'product.apps.ProductConfig',
+    'products.apps.ProductsConfig',
     'accounts.apps.AccountsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'producthunt.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'producthuntdb',
+        'NAME': 'producthuntdb2',
         'USER':'postgres',
         'PASSWORD':'f/macm+hnE64MwXB/Lu[',
         'HOST':'localhost',
